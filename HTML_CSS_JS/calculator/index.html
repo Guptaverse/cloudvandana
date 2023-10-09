@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="layer1">
+            <form name="form">
+                <input class="textview" name="textview">
+            </form>
+            <input class="allclearButton" type="button" value="AC" onclick="clean()">
+        </div>
+        <div class="dialpad">
+            <div class="level">
+                <input class="button" type="button" value="7" onclick="insert(7)">
+                <input class="button" type="button" value="8" onclick="insert(8)">
+                <input class="button" type="button" value="9" onclick="insert(9)">
+                <input class="button grey" type="button" value="+" onclick="insert('+')">
+
+            </div>
+            <div class="level">
+                <input class="button"  type="button" value="4" onclick=insert(4)>
+                <input class="button" type="button" value="5" onclick=insert(5)>
+                <input class="button" type="button" value="6" onclick="insert(6)">
+                <input class="button grey" type="button" value="-" onclick="insert('-')">
+            </div>
+            <div class="level">
+                <input class="button" type="button" value="1" onclick="insert(1)">
+                <input class="button" type="button" value="2" onclick="insert(2)">
+                <input class="button" type="button" value="3" onclick="insert(3)">
+                <input class="button grey" type="button" value="/" onclick="insert('/')">
+ 
+            </div>
+            <div class="level">
+            <input class="button" type="button" value="." onclick="insert('.')">
+            <input class="button" type="button" value="0" onclick="insert(0)">
+            <input class="button" type="button" value="=" onclick=equals()>
+            <input class="button grey" type="button" value="x" onclick="insert('*')">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

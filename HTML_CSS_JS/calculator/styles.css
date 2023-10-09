@@ -1,0 +1,96 @@
+body {
+    background-color: #bdbdbd;
+}
+
+.textview{
+    display: inline-block;
+    padding-left:15px;
+	width: 170px;
+	height: 96%;
+	font-size: 20px;
+    outline: none;
+    background-color: white;
+	border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+    padding: 2px;
+	width: 100%;
+	height:100%;
+    outline: none;
+    border: none;
+    background-color: #212121;
+    color: white;
+
+  
+}
+.grey{
+    background-color: #757575 !important;
+}
+
+.button:hover,.equalButton:hover {
+	background-color: #ffffffae;
+    color: black;
+
+}
+
+.allclearButton {
+
+	color: #FFF;
+	width: 100%;
+	height: 100%;
+    outline: none;
+    border: none;
+	background-color:#129688;
+
+}
+
+
+.container{
+		background: rgba(146, 142, 142, 0.589);
+		/* background-size: 100px 80px; */
+        width: 250px;
+        height: 250px;
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+.layer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25%;
+
+}
+.dialpad{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.level{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+      
